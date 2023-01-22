@@ -30,5 +30,4 @@ void loop(){
   
   }
   laststateclk = currentstateclk;
- 
 }
