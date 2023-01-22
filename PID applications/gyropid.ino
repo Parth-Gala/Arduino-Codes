@@ -48,7 +48,7 @@ void setup() {
   Serial.println("Done!\n");
 }
 
-void gyroPID(){                                  // Function to integrate P.I.D. to Gyrocope Sensor
+void gyroPID(){                                               // Function to integrate P.I.D. to Gyrocope Sensor
   error = bot_angle;
   int p_error = error;
   int i_error = 0;
